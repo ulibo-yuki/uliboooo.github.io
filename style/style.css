@@ -1,0 +1,157 @@
+body {
+    h2 {
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    h3 {
+        font-family: "Itim", "Zen Kurenaido", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    p {
+        font-family: "Hiragino Sans", "Noto Sans";
+    }
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        color: #333333;
+    }
+    .title {
+        margin-bottom: 10px;
+    }
+}
+
+.header_item {
+    flex: 1;
+}
+
+.info {
+    h2 {
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    h3 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    p {
+        width: 75%;
+        margin: auto;
+    }
+    .info_text {
+        text-align: center;
+    }
+    .info_text_p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.title {
+    font-family: "Itim", cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sns {
+    text-align: center;
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #333333;
+        font-family: "Itim", cursive;
+    }
+    img {
+        height: 50px;
+    }
+    #note_logo {
+        height: 65px;
+    }
+    #x_logo {
+        height: 40px;
+    }
+    #youtube_logo {
+        height: 65px;
+    }
+    #reddit_logo {
+        border-radius: 12px;
+    }
+    #rss_logo {
+        height: 40px;
+    }
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    h2 {
+        text-align: center;
+        a {
+            color: #333333;
+            text-decoration: none;
+        }
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        font-family: "Itim", "Zen Kurenaido", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .content {
+        flex: 1;
+    }
+    .series_list {
+        ul {
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+.note-embed {
+    text-align: center;
+    margin: auto !important;
+    display: block;
+    /* margin: inherit; */
+}
+
+
+.github_repos {
+    .github_lang {
+        iframe {
+            text-align: center;
+            margin: auto;
+            display: block;
+        }
+    }
+    .github_repo_link {
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
