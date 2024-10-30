@@ -5,12 +5,23 @@ body {
         font-size: 30px;
     }
     h3 {
-        font-family: "Itim", "Zen Kurenaido", sans-serif;
+        font-family: "Itim", cursive;
         font-weight: 300;
         font-size: 20px;
     }
     p {
         font-family: "Hiragino Sans", "Noto Sans";
+    }
+}
+
+.page {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 480px) {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 .head {
@@ -21,27 +32,46 @@ body {
         text-decoration: none;
         color: #333333;
     }
-    .title {
-        margin-bottom: 10px;
-    }
+}
+
+#title {
+    font-family: "Itim", cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header_item {
     flex: 1;
 }
 
+h2 {
+    font-family: "Itim", cursive;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    a {
+        color: #333333;
+        text-decoration: none;
+    }
+}
+h3 {
+    font-family: "Itim", cursive;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-family: "Itim", cursive;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .info {
-    h2 {
-        margin-top: 10px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    h3 {
-        text-align: center;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
     p {
         width: 75%;
         margin: auto;
@@ -50,17 +80,13 @@ body {
         text-align: center;
     }
     .info_text_p {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        /* margin: 5px; */
+        text-align: center;
+        /* margin-left: 5px;
+        margin-right: 5px; */
+        margin: auto;
+        width: 90%;
     }
-}
-
-.title {
-    font-family: "Itim", cursive;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .sns {
@@ -107,24 +133,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    h2 {
-        text-align: center;
-        a {
-            color: #333333;
-            text-decoration: none;
-        }
-    }
-    h3 {
-        text-align: center;
-    }
-    h4 {
-        font-family: "Itim", "Zen Kurenaido", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        text-align: center;
-    }
+    gap: 30px;
     .content {
         flex: 1;
         min-width: 360px;
@@ -142,31 +151,47 @@ body {
             margin-bottom: 5px;
         }
     }
-}
-
-.note-embed {
-    text-align: center;
-    margin: auto !important;
-    display: block;
-    /* margin: inherit; */
-}
-
-
-.github_repos {
-    #my_repos {
+    .note-embed {
         text-align: center;
-    }
-    .github_lang {
-        iframe {
-            text-align: center;
-            margin: auto;
-            display: block;
+        margin: auto !important;
+        display: block;
+        /* width: 90% !important; */
+        min-width: 360px !important;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        @media screen and (max-width: 480px) {
+            margin-left: 3px;
+            margin-right: 3px;
         }
     }
-    .github_repo_link {
+    .github_repos {
+        #my_repos{
+            text-align: center;
+        }
+
+        
+        .github_lang {
+            iframe {
+                text-align: center;
+                margin: auto;
+                display: block;
+            }
+        }
+        .github_repo_link {
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.footer {
+    p {
         text-align: center;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        font-family: "Itim", cursive;
+        font-weight: 200;
     }
 }
