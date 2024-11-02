@@ -34,7 +34,7 @@ body {
     }
 }
 
-#title {
+.title {
     font-family: "Itim", cursive;
     font-size: 70px;
     text-align: center;
@@ -97,12 +97,15 @@ h4 {
         text-align: center;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 18px;
         font-size: 20px;
         justify-content: center;
         align-items: center;
         margin-top: 0;
         margin-bottom: 0;
+    }
+    li {
+        width: 58px;
     }
     a {
         text-decoration: none;
@@ -112,21 +115,30 @@ h4 {
     img {
         height: 50px;
     }
-    #note_logo {
+    .sns_explanation {
+        font-family: "Itim", cursive;
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        margin: inherit;
+    }
+    /* #note_logo {
         height: 65px;
     }
     #x_logo {
         height: 40px;
     }
     #youtube_logo {
-        height: 65px;
+        height: 70px;
     }
+    */
     #reddit_logo {
         border-radius: 12px;
     }
+    /*
     #rss_logo {
         height: 40px;
-    }
+    } */
 }
 
 .contents {
