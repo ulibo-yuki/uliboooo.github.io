@@ -105,7 +105,7 @@ h4 {
         margin-bottom: 0;
     }
     li {
-        width: 58px;
+        width: 60px;
     }
     a {
         text-decoration: none;
@@ -121,6 +121,9 @@ h4 {
         text-align: center;
         width: 100%;
         margin: inherit;
+        
+        margin-left: auto;
+        margin-right: auto;
     }
     /* #note_logo {
         height: 65px;
