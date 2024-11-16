@@ -2,7 +2,8 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/article.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,16 +30,7 @@
 
 <body>
     <div class="page">
-        <!-- <header id="header"></header> -->
-        <div class="head">
-            <div class="header_item">
-                <a href="./index.html">
-                    <div>
-                        <p class="title">Uliboooo</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+        <script src="/resource/js/header.js"></script>
         <div class="info">
             <!-- <h2>Infomation</h2> -->
             <div class="info_text">
@@ -96,7 +88,26 @@
                 </ul>
             </div>
         </div>
+        <!-- <a href="/resource/draft/articles.html">a</a> -->
         <div class="contents">
+            <div class="en_articles content">
+                <h2>
+                    <a href="/resource/draft/articles.html" target="_blank" rel="noopener noreferrer">Articles(en)🔗</a>
+                </h2>
+                <a href="/resource/release/cleanup.html" target="_blank" rel="noopener noreferrer">
+                    <div class="artile_link ar">
+                        <div class="article_content ar">
+                            <div class="article_info ar">
+                                <div class="article_title ar">Tried using "Clean Up" on Mac 15</div>
+                                <div class="article_summary ar">i tried using new mac's function "clean up".</div>
+                            </div>
+                            <div class="article_img ar">
+                                <img src="/resource/image/cleanup.png" alt=""></div>
+                        </div>
+                        <div class="article_date ar">post: 2024/11/17</div>
+                    </div>
+                </a>
+            </div>
             <div class="note_articles content">
                 <h2>
                     <a href="https://note.com/uliboooo/" target="_blank" rel="noopener noreferrer">note🔗</a>
@@ -293,11 +304,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <p>Copyright 2024 Uliboooo</p>
-        </div>
-        <!-- <footer id="footer"></footer>
-        <script src="/resource/js/h_f.js"></script> -->
+        <script src="/resource/js/footer.js"></script>
     </div>
 </body>
 
