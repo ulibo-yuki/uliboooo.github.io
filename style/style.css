@@ -78,6 +78,9 @@ h4 {
     }
     .info_text {
         text-align: center;
+        h2 {
+            text-align: center;
+        }
     }
     .info_text_p {
         /* margin: 5px; */
@@ -91,6 +94,9 @@ h4 {
 
 .sns {
     text-align: center;
+    h2 {
+        text-align: center;
+    }
     ul {
         list-style: none;
         padding: 0;
@@ -152,6 +158,9 @@ h4 {
     .content {
         flex: 1;
         min-width: 360px;
+        h2 {
+            text-align: center;
+        }
     }
     .series_list {
         ul {
@@ -208,5 +217,17 @@ h4 {
         text-align: center;
         font-family: "Itim", cursive;
         font-weight: 200;
+    }
+}
+
+.hope {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.en_articles {
+    a {
+        text-decoration: none;
     }
 }
